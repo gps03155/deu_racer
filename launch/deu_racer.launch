@@ -1,0 +1,8 @@
+<launch>
+
+    <node name="follower" pkg="deu_racer" type="follower.py" output="screen" />
+    <node name="tur3_nav" pkg="deu_racer" type="tur3_nav.py" output="screen" />
+    <node name="blocking" pkg="deu_racer" type="blocking.py" output="log" />
+    <node name="light" pkg="deu_racer" type="light.py" output="log" />
+    <node name="stabilizer" pkg="deu_racer" type="stabilizer.py" output="log" />
+</launch>
