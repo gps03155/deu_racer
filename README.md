@@ -22,5 +22,3 @@ $ roslaunch deu_racer deu_racer.launch
 ----
     cam_setting.py : 라인카메라 캘리브레이션
     mask_tool.py   : 영상의 마스크를 찾게 도와줌
-# deu_racer
-# deu_racer
